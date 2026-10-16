@@ -1,6 +1,5 @@
 # Awesome Agent Collaboration Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-
 > A curated list of tools and infrastructure for AI agent-to-agent communication, coordination, and collaboration.
 
 Unlike general "awesome agents" lists that focus on *what agents can do*, this list focuses on **how agents work together** — the communication protocols, messaging systems, orchestration frameworks, shared memory layers, identity/trust mechanisms, and observability tools that make multi-agent systems possible.
@@ -20,7 +19,6 @@ Unlike general "awesome agents" lists that focus on *what agents can do*, this l
 - [Learning Resources](#learning-resources)
 
 ---
-
 
 ## Communication Protocols
 
