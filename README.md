@@ -1,5 +1,6 @@
 # Awesome Agent Collaboration Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+
 > A curated list of tools and infrastructure for AI agent-to-agent communication, coordination, and collaboration.
 
 Unlike general "awesome agents" lists that focus on *what agents can do*, this list focuses on **how agents work together** — the communication protocols, messaging systems, orchestration frameworks, shared memory layers, identity/trust mechanisms, and observability tools that make multi-agent systems possible.
@@ -20,6 +21,7 @@ Unlike general "awesome agents" lists that focus on *what agents can do*, this l
 
 ---
 
+
 ## Communication Protocols
 
 Standards and protocols that define how agents discover, communicate, and delegate tasks to each other.
@@ -30,6 +32,7 @@ Standards and protocols that define how agents discover, communicate, and delega
 - [ANP (Agent Network Protocol)](https://agent-network-protocol.com) - Decentralized protocol for open agent networks, built on W3C DID standards. Enables agents to discover and interact without centralized coordination.
 - [UTCP (Universal Tool Calling Protocol)](https://github.com/universal-tool-calling-protocol/utcp-agent) - Exposes tools to models using the tool's native endpoint rather than requiring an MCP wrapper. Contributed to Linux Foundation alongside ACP.
 - [OpenAI Agents SDK — Handoffs](https://platform.openai.com/docs/guides/agents) - First-class agent-to-agent handoff primitives in OpenAI's Agents SDK. Allows agents to delegate tasks with full context transfer.
+- - [ACP-lite (Agent Connect Personal)](https://github.com/furoute/acp-lite) - Lightweight personal cross-host messaging for AI agents: one "post office" per machine over Syncthing file sync, Ed25519-signed envelopes, hash-chained audit, zero-token delivery. MIT.
 
 ---
 
